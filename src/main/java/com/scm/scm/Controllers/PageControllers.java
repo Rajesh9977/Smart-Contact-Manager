@@ -18,4 +18,18 @@ public class PageControllers {
 
         return "home"; // looks for home.html or home.jsp depending on template engine
     }
+
+    // about route
+    @RequestMapping("/about")
+    public String aboutPage() {
+        System.out.println("About page loading");
+        return "about";
+    }
+
+    // services
+    @RequestMapping("/services")
+    public String servicesPage() {
+        System.out.println("Service page loading");
+        return "services";
+    }
 }
