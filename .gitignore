@@ -31,3 +31,21 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Node modules
+node_modules/
+
+# Build outputs (optional based on your setup)
+dist/
+build/
+out/
+
+# Tailwind output CSS if you regenerate it
+src/main/resources/static/css/output.css
+
+# OS and editor files
+.DS_Store
+.vscode/
+.idea/
+*.log
+

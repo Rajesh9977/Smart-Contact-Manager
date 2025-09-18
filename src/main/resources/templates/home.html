@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <title>Tailwind CSS Test</title>
+  <!-- Link to your generated Tailwind CSS file -->
+  <link rel="stylesheet" href="../css/output.css">
 </head>
 <body>
-    <h1>Hello World</h1>
-    <h1 data-th-text="${name}">Developer</h1>
-    <h1 th:text="${Youtube}"></h1>
-    <a th:href="${Github}">Click Here</a>
-    <h1 th:text="${Github}">Click Here</h1>
-
+  <div class="bg-blue-500 text-white p-8 rounded-lg shadow-lg text-center">
+    <h1 class="text-3xl font-bold mb-4">Tailwind CSS is Working!</h1>
+    <p class="text-lg">If you see a blue box with white bold text, your setup is correct.</p>
+    <button class="mt-6 bg-white text-blue-700 font-semibold py-2 px-4 rounded hover:bg-blue-100">
+      Test Button
+    </button>
+  </div>
 </body>
 </html>
