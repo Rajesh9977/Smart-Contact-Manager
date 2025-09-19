@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" 
+
+th:replace="~{base::parent(~{::#content}, ~{::title})}" >
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Services</title>
+    <title>Home Page</title>
 </head>
 <body>
-    <h1>This is services Page</h1>
-    
+    <!-- Define content fragment -->
+    <div id="content">
+        <h1>This is Home Page</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <h1>Hello</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+            Rerum quidem consequatur recusandae sunt repellendus neque sit dignissimos illum. 
+            Nemo in quasi iure sit pariatur dolor.
+        </p>
+    </div>
 </body>
 </html>
